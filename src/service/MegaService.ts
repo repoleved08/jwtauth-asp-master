@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-    baseURL: 'https://fxauth2024.azurewebsites.net/api',
+    baseURL: 'https://fx/api',
     headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
@@ -10,7 +10,7 @@ const apiClient = axios.create({
 // BaseURL 2 
 
 const apiClient2 = axios.create({
-    baseURL: 'https://fxbundle2024.azurewebsites.net/api',
+    baseURL: 'https://fx/api',
     headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
